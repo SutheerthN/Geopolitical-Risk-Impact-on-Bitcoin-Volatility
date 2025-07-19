@@ -66,8 +66,7 @@ Each plot highlights a geopolitical event with a red dashed line and shows how B
 
 - `btc_volatility_analysis.ipynb` – Jupyter Notebook with full code and plots
 - `README.md` – Project overview and explanation
-- (Optional) `plots/` – Folder containing exported charts
-- (Optional) `BTC_Volatility_Report.pdf` – PDF version for sharing
+- `plots/` – Folder containing exported charts
 
 ---
 
