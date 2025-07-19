@@ -1,0 +1,49 @@
+PROJECT TITLE: Geopolitical Risk Impact on Bitcoin Volatility
+
+SUMMARY:
+
+This project explores the effect of major geopolitical events on the short-term volatility of Bitcoin (BTC), with a focus on analyzing its behavior around global crises. As Bitcoin continues to evolve from a speculative asset to a potential macroeconomic hedge, understanding how it reacts to political shocks is increasingly important for traders, analysts, and institutions.
+
+OBJECTIVE:
+To investigate how specific geopolitical flashpoints impact the 7-day rolling volatility of Bitcoin, using historical price data and manual tagging of high-impact global events.
+
+TOOLS & TECHNOLOGY USED:
+- Python (Jupyter Notebook / Google Colab)
+- yfinance (for downloading historical BTC-USD data)
+- pandas (for data manipulation)
+- matplotlib, seaborn (for visualization)
+
+DATA:
+- BTC-USD daily closing price data from Yahoo Finance (2021–2024)
+- 3 Geopolitical events were manually selected:
+  1. Russia-Ukraine War Start (2022-02-24)
+  2. Israel-Gaza Conflict Spike (2023-10-07)
+  3. Iran-US Tension Escalation (2024-01-01)
+
+METHODOLOGY:
+1. Downloaded BTC price data and calculated daily return and 7-day rolling volatility as a proxy for short-term risk.
+2. Defined a ±30-day window around each event.
+3. Plotted volatility trends with the geopolitical event date marked clearly.
+4. Observed price and volatility changes before, during, and after the events to understand how geopolitical tension influences BTC's market behavior.
+
+KEY FINDINGS:
+- During the Russia-Ukraine conflict, BTC volatility nearly doubled within a week of the event, indicating heightened market anxiety.
+- The Israel-Gaza conflict caused a moderate spike, showing that BTC is sensitive to Middle Eastern instability, but less dramatically than the Russia-Ukraine crisis.
+- The Iran-US tension showed volatility spikes similar to the early days of the pandemic and war, implying that macro-political risks strongly influence crypto volatility.
+
+INSIGHTS:
+- Bitcoin often acts like a "risk-on" asset (like tech stocks) during geopolitical shocks, rather than as a consistent safe-haven like gold.
+- This behavior presents both opportunity and risk for traders and institutions during times of uncertainty.
+- Understanding volatility patterns around macro events is critical for building trading strategies and risk management models.
+
+RELEVANCE TO FUTURES FIRST:
+This project is highly aligned with Futures First’s core focus:
+- Demonstrates a strong understanding of market volatility and global macroeconomic triggers.
+- Applies quantitative reasoning, data visualization, and real-world finance analysis.
+- Highlights skills essential to proprietary trading: risk analysis, fast decision-making, and data-driven judgment.
+
+CONCLUSION:
+The project proves that combining global awareness with market analytics can yield meaningful trading insights. Bitcoin is highly sensitive to geopolitical developments, and this volatility creates strategic opportunities for traders. A firm like Futures First can leverage such insights to inform trading decisions in both crypto and traditional derivative markets.
+
+Prepared by:
+SUTHEERTH N
